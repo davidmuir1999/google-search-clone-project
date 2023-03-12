@@ -24,6 +24,7 @@
 
 .search__inputIcon{
     color: gray;
+    cursor: pointer;
 }
 
 .search__buttons{
@@ -48,3 +49,8 @@
     border: 1px solid #c6c6c6;
     color: #222;
 }
+
+.search__buttonsHidden{
+    display: none !important;
+}
+
