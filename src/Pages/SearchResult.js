@@ -69,7 +69,7 @@ function Result() {
             {term && (
                 <div className="searchPage__results">
                     <p className="searchPage__resultCount">
-                        About {data?.searchInformation.formattedTotalResults} results ({data?.searchInformation.formattedSearchTime}) for {term}
+                        About {data?.searchInformation.formattedTotalResults} results ({data?.searchInformation.formattedSearchTime}s) for {term}
                     </p>
                     {data?.items.map(item => (
                         <div className="searchPage__result">
